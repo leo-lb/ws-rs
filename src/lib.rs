@@ -236,7 +236,7 @@ impl Default for Settings {
 
     fn default() -> Settings {
         Settings {
-            max_connections: 100,
+            max_connections: 10000,
             queue_size: 5,
             panic_on_new_connection: false,
             panic_on_shutdown: false,
